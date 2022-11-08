@@ -1,4 +1,5 @@
-﻿#include<iostream>
+﻿//test
+#include<iostream>
 #include<string>
 #include<Windows.h>
 #include <conio.h>
@@ -219,7 +220,7 @@ void game() {
 
 
 
-void mapCreat() {                                                  //"0"是空地，“1”是蛇头，“2”是蛇身，“3”是围墙,“4”是食物
+void mapCreat() {                                                  //"0"是空地，“1”是蛇头，“2”是蛇身，“3”是围墙,“4”是食物 
 	system("cls");
 	int i = 0, j = 0;
 	for (j = 0; j < height; j++) {
